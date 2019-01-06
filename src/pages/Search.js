@@ -60,7 +60,7 @@ class Search extends Component {
               placeholder="The Cat In The Hat"
             />
 
-            
+
             <FormBtn
               disabled={!this.state.title}
               onClick={this.handleFormSubmit}
