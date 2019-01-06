@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
-import Jumbotron from "../components/Jumbotron";
+import SavedJumbo from "../components/SavedJumbo";
 
 
 class Saved extends Component {
@@ -8,7 +8,7 @@ class Saved extends Component {
     return (
      <div>
        <Nav />
-       <Jumbotron />
+       <SavedJumbo />
     </div>
     );
   }
